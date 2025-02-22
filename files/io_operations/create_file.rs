@@ -4,7 +4,7 @@ use std::io;
 
 fn main() -> io::Result<()> {
     // Method 1: Using File::create
-    // This is the most straightforward equivalent to creat()
+    // This is the most straightforward equivalent to creat() in libc
     match File::create("file1.txt") {
         Ok(file) => println!("Successfully created file1.txt"),
         Err(e) => eprintln!("Failed to create file1.txt: {}", e),
