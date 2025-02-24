@@ -1,6 +1,6 @@
 use std::env;
 use std::fs::OpenOptions;
-use std::io::{self, Error, ErrorKind};
+use std::io::{self, ErrorKind};
 use std::path::PathBuf;
 
 // Custom error type for our application
